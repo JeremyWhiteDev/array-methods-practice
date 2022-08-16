@@ -163,10 +163,20 @@ let superheroesDetails = [
       
       ///Make a copy of outfits called outfitsCopy that can be modified without changing outfits directly.
 
-      // const outfitsCopy = outfits.map(x => {
-      //   return {...x}
+      // const outfitsCopy = outfits.map(obj => {
+      //   return {...obj}
       // })
 
+
+      // const  outfitsCopy = outfits.map(obj => {
+      //   return {
+      //     id: obj.id,
+      //     bottoms: obj.bottoms,
+      //     top: obj.top,
+      //   }
+      //       })
+
+      //       console.log(outfitsCopy)
       // outfitsCopy.pop();
       // console.log(outfits)
       // console.log(outfitsCopy)
@@ -339,13 +349,13 @@ let superheroesDetails = [
     //   msg(animals);
     //   // BONUS:  Sort the array of animals by id.
       
-      const sortArray = (array) => {
-        array.sort((a, b) => {
-            return a.id - b.id;
-        }
-        )
-    }
+    //   const sortArray = (array) => {
+    //     array.sort((a, b) => {
+    //         return a.id - b.id;
+    //     }
+    //     )
+    // }
 
-      sortArray(animals)
-      console.log(animals)
+    //   sortArray(animals)
+    //   console.log(animals)
 
